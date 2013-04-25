@@ -20,10 +20,8 @@ import flash.geom.Point;
 import flash.text.TextField;
 import flash.utils.Timer;
 
-[SWF(width="800", height="600",frameRate="60")]
 public class TestForDima extends Sprite {
-    [Embed(source = '/images/red.jpg')]
-    private var Background:Class;
+
     private var array:Array = new Array();
     private var timeline : TimelineLite = new TimelineLite();
     private var test : TestView;
@@ -34,10 +32,6 @@ public class TestForDima extends Sprite {
     private var navigation : int=0;
     public function TestForDima() {
         TweenPlugin.activate([ScrollRectPlugin]);
-        var background : Bitmap = new Background();
-        background.width=800;
-        background.height=600;
-        addChild(background);
         ServerRelation.getTest();
         ServerRelation.eventdisp.addEventListener(Event.COMPLETE, server_completeHandler);
         /* test.scaleX=0.5;    */

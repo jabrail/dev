@@ -22,7 +22,7 @@ public class TextFormats {
             textFormat_3.size = 15;
             textFormat_3.color = 0xFFFFFF;
             textFormat_3.align = TextFormatAlign.CENTER;
-            textFormat_1.size = 15;
+            textFormat_1.size = 20;
             textFormat_1.color = 0x000000;
             textFormat_1.align = TextFormatAlign.CENTER;
 

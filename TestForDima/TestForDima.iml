@@ -4,6 +4,11 @@
     <configurations>
       <configuration name="TestForDima" pure-as="true" main-class="TestForDima" output-file="TestForDima.swf" output-folder="$MODULE_DIR$/out/production/TestForDima">
         <dependencies target-player="11.1">
+          <entries>
+            <entry library-id="143e0805-4865-416c-90fd-1d0a0f970e29">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
           <sdk name="sdk" />
         </dependencies>
         <compiler-options />
@@ -21,6 +26,16 @@
     </content>
     <orderEntry type="jdk" jdkName="sdk" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="143e0805-4865-416c-90fd-1d0a0f970e29" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/iPhoneComponentSet-5-2.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
 
