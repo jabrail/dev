@@ -8,6 +8,9 @@
             <entry library-id="143e0805-4865-416c-90fd-1d0a0f970e29">
               <dependency linkage="Merged" />
             </entry>
+            <entry library-id="713fdcc5-5ca7-4094-8e0d-8f43008c706e">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
           <sdk name="sdk" />
         </dependencies>
@@ -31,6 +34,16 @@
         <properties id="143e0805-4865-416c-90fd-1d0a0f970e29" />
         <CLASSES>
           <root url="jar://$MODULE_DIR$/src/iPhoneComponentSet-5-2.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="713fdcc5-5ca7-4094-8e0d-8f43008c706e" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/lib.swc!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

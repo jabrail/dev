@@ -4,23 +4,30 @@
     <list default="true" id="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" name="Default" comment="" />
     <ignored path="TestForDima.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1366825710034" ignored="false" />
+    <file path="/fragment.js2" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1367520015673" ignored="false" />
     <file path="/AplicationStaticString.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1365067664119" ignored="false" />
     <file path="/ModalContainer.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1366824298108" ignored="false" />
     <file path="/TestForDima.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1366005244342" ignored="false" />
     <file path="/TestView.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1365799909912" ignored="false" />
-    <file path="/TestElement.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1365799850452" ignored="false" />
+    <file path="/TestElement.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1366874705848" ignored="false" />
     <file path="/Dummy.txt" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1365588343972" ignored="false" />
     <file path="/TextFormats.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1365585643321" ignored="false" />
     <file path="/MySprite.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1365799288865" ignored="false" />
-    <file path="/ServerRelation.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1366655752961" ignored="false" />
+    <file path="/ServerRelation.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1367523678136" ignored="false" />
     <file path="$PROJECT_DIR$/../axadip/src/GetPoint.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1365801666284" ignored="false" />
     <file path="/GetPoint.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1365801642203" ignored="false" />
     <file path="/Chat.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1365803129754" ignored="false" />
     <file path="$PROJECT_DIR$/../hhhh/Submarine/V1.0/src/Menu/LevelSelect.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1365843008214" ignored="false" />
     <file path="/LevelSelect.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1365842786325" ignored="false" />
-    <file path="/Forms.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1366834253274" ignored="false" />
-    <file path="/MainView.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1366827127867" ignored="false" />
+    <file path="/Forms.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1367515013618" ignored="false" />
+    <file path="/MainView.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1367524261617" ignored="false" />
+    <file path="/MyEvents.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1367514437362" ignored="false" />
+    <file path="/BookExample.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1367095768907" ignored="false" />
+    <file path="/TutorialView.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1367097845694" ignored="false" />
+    <file path="/SubjectView.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1367501079569" ignored="false" />
+    <file path="/a.dummy" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1367513168654" ignored="false" />
+    <file path="/User.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1367556164239" ignored="false" />
+    <file path="/SellectSubject.as" changelist="c42abbeb-240d-48c1-bfc2-4d258abd7fe2" time="1367556230024" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +91,16 @@
       <file leaf-file-name="TestForDima.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestForDima.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+            <state line="22" column="13" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerRelation.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ServerRelation.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="206" column="0" selection-start="8299" selection-end="8299" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,29 +115,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="User.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/User.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="50" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainView.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainView.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="390" selection-end="463" vertical-scroll-proportion="0.0">
+            <state line="49" column="22" selection-start="1642" selection-end="1642" vertical-scroll-proportion="-5.08">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySprite.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MySprite.as">
+      <file leaf-file-name="SellectSubject.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SellectSubject.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestElement.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestElement.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="22" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="28" column="24" selection-start="856" selection-end="856" vertical-scroll-proportion="0.95977014">
+              <folding>
+                <element signature="e#166#194#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,39 +153,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Forms.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Forms.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Forms.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="62" selection-start="7256" selection-end="7256" vertical-scroll-proportion="0.29411766">
+            <state line="51" column="44" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.0">
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="e#166#200#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestView.as">
+      <file leaf-file-name="SubjectView.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SubjectView.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="86" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+            <state line="11" column="36" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AplicationStaticString.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AplicationStaticString.as">
+      <file leaf-file-name="MyEvents.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyEvents.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="76" selection-start="278" selection-end="311" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chat.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chat.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="15" column="35" selection-start="500" selection-end="511" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -183,25 +193,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/MySprite.as" />
-        <option value="$PROJECT_DIR$/src/TestView.as" />
         <option value="$PROJECT_DIR$/src/Chat.as" />
-        <option value="$PROJECT_DIR$/src/TestElement.as" />
         <option value="$PROJECT_DIR$/src/AplicationStaticString.as" />
-        <option value="$PROJECT_DIR$/src/ServerRelation.as" />
         <option value="$PROJECT_DIR$/src/ModalContainer.as" />
         <option value="$PROJECT_DIR$/src/TestForDima.as" />
-        <option value="$PROJECT_DIR$/src/MainView.as" />
         <option value="$PROJECT_DIR$/src/TextFormats.as" />
+        <option value="$PROJECT_DIR$/src/TestElement.as" />
+        <option value="$PROJECT_DIR$/src/BookExample.as" />
+        <option value="$PROJECT_DIR$/src/silin/TutorialView.as" />
+        <option value="$PROJECT_DIR$/src/TutorialView.as" />
+        <option value="$PROJECT_DIR$/src/SubjectView.as" />
+        <option value="$PROJECT_DIR$/src/MyEvents.as" />
         <option value="$PROJECT_DIR$/src/Forms.as" />
+        <option value="$PROJECT_DIR$/src/ServerRelation.as" />
+        <option value="$PROJECT_DIR$/src/MainView.as" />
+        <option value="$PROJECT_DIR$/src/User.as" />
+        <option value="$PROJECT_DIR$/src/SellectSubject.as" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -231,7 +246,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,9 +278,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestForDima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestForDima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="silin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +308,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/iPhoneComponentSet-5-2.swc!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib.swc!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -287,6 +320,7 @@
   <component name="RecentsManager">
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
       <recent name="" />
+      <recent name="silin" />
     </key>
   </component>
   <component name="RunManager" selected="Flash App.MainView">
@@ -438,6 +472,44 @@
       <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="TutorialView" type="FlashRunConfigurationType" factoryName="Flash App" temporary="true">
+      <option name="BCName" value="TestForDima" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="TestForDima" />
+      <option name="overriddenMainClass" value="TutorialView" />
+      <option name="overriddenOutputFileName" value="TutorialView.swf" />
+      <option name="overrideMainClass" value="true" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <RunnerSettings RunnerId="FlexDebugRunner" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexDebugRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -559,19 +631,21 @@
       <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Flash App.TestForDima" />
       <item index="1" class="java.lang.String" itemvalue="Flash App.TestElement" />
       <item index="2" class="java.lang.String" itemvalue="Flash App.ServerRelation" />
       <item index="3" class="java.lang.String" itemvalue="Flash App.Forms" />
       <item index="4" class="java.lang.String" itemvalue="Flash App.MainView" />
+      <item index="5" class="java.lang.String" itemvalue="Flash App.TutorialView" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Flash App.MainView" />
-        <item index="1" class="java.lang.String" itemvalue="Flash App.Forms" />
-        <item index="2" class="java.lang.String" itemvalue="Flash App.ServerRelation" />
-        <item index="3" class="java.lang.String" itemvalue="Flash App.TestElement" />
+        <item index="1" class="java.lang.String" itemvalue="Flash App.TutorialView" />
+        <item index="2" class="java.lang.String" itemvalue="Flash App.Forms" />
+        <item index="3" class="java.lang.String" itemvalue="Flash App.ServerRelation" />
+        <item index="4" class="java.lang.String" itemvalue="Flash App.TestElement" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -609,34 +683,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32478634" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24869695" sideWeight="0.2735043" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23157111" sideWeight="0.67145133" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23157111" sideWeight="0.6752137" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -698,7 +772,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/src/ServerRelation.as</url>
+          <line>206</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -706,92 +787,51 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AplicationStaticString.as">
+    <entry file="file://$PROJECT_DIR$/src/MySprite.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/silin/gadgets/book/Book.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="200" column="45" selection-start="5139" selection-end="5139" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ModalContainer.as">
+    <entry file="file://$PROJECT_DIR$/src/BookExample.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="61" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="133" column="25" selection-start="3853" selection-end="3853" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#11#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/greensock/core/SimpleTimeline.as">
+    <entry file="file://$PROJECT_DIR$/src/TestElement.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="0" selection-start="4086" selection-end="4086" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/greensock/TimelineLite.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="585" column="0" selection-start="36167" selection-end="36167" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/greensock/TweenLite.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="378" column="0" selection-start="23179" selection-end="23179" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chat.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="30" column="45" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestView.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="86" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+        <state line="25" column="89" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AplicationStaticString.as">
+    <entry file="file://$PROJECT_DIR$/src/TutorialView.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="76" selection-start="278" selection-end="311" vertical-scroll-proportion="0.0">
+        <state line="36" column="0" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerRelation.as">
+    <entry file="file://$PROJECT_DIR$/src/SubjectView.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="70" selection-start="2629" selection-end="2629" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ModalContainer.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="27" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MySprite.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestElement.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="22" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestForDima.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainView.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="390" selection-end="463" vertical-scroll-proportion="0.0">
+        <state line="11" column="36" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -803,11 +843,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyEvents.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="500" selection-end="511" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestForDima.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ModalContainer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Forms.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="62" selection-start="7256" selection-end="7256" vertical-scroll-proportion="0.29411766">
+        <state line="51" column="44" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.0">
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="e#166#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerRelation.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="206" column="0" selection-start="8299" selection-end="8299" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="22" selection-start="1642" selection-end="1642" vertical-scroll-proportion="-5.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="50" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SellectSubject.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="24" selection-start="856" selection-end="856" vertical-scroll-proportion="0.95977014">
+          <folding>
+            <element signature="e#166#194#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -28,7 +28,7 @@ public class TestElement extends Sprite{
     public var response : int = 0;
     public function TestElement(_array:Array) {
         var fon : Sprite = new Sprite();
-        fon.graphics.beginFill(0x432543,0.8);
+        fon.graphics.beginFill(0xFFFFFF,0.2);
         fon.graphics.drawRect(0,0,780,520);
         fon.x=10;
         addChild(fon)
