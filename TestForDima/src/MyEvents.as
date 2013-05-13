@@ -10,6 +10,7 @@ import flash.events.EventDispatcher;
 
 public class MyEvents extends EventDispatcher{
     public static const LOG_IN  : String = "logIn"
+    public static const LOG_IN_FAIL  : String = "logInFail"
     public static const REGISTRATION  : String = "reg"
     public static const ADDTEST  : String = "addTest"
     public static const REGISTRATIONCLICK  : String = "clickreg"

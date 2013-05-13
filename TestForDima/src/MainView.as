@@ -21,10 +21,11 @@ public class MainView extends Sprite {
     [Embed(source = '/images/fon.png')]
     private var Background:Class;
     private var forms : Forms = new Forms();
-    private var tests : TestForDima;
+    private var tests : TestForDima = new TestForDima();
     private var timeLine_1 : TimelineLite = new TimelineLite();
     private var timeLine_2 : TimelineLite = new TimelineLite();
     private var subsellect : SellectSubject = new SellectSubject();
+    private var sellctTest : SellectTest = new SellectTest();
     private var user : User;
     public function MainView() {
         var background : Bitmap = new Background();
@@ -43,6 +44,7 @@ public class MainView extends Sprite {
     private function forms_logInHandler(event:Event):void {
            ServerRelation.logIn(forms.arrayForTextIN[0].text,forms.arrayForTextIN[1].text);
             ServerRelation.eventdisp.addEventListener(MyEvents.LOG_IN, logInHandler);
+            ServerRelation.eventdisp.addEventListener(MyEvents.LOG_IN_FAIL, forms_logInFailHandler);
     }
 
     private function logInHandler(event:Event):void {
@@ -50,6 +52,7 @@ public class MainView extends Sprite {
         user = new User(ServerRelation.userArray)
         addChild(subsellect);
         subsellect.init();
+        subsellect.addEventListener(Event.COMPLETE, subsellect_completeHandler);
         transition(forms.logInContainer,subsellect);
       /*     forms.addTestForm();
         forms.addEventListener(MyEvents.ADDTEST, forms_addTestHandler);
@@ -81,6 +84,24 @@ public class MainView extends Sprite {
     private function forms_addTestHandler(event:Event):void {
         ServerRelation.addTest(forms.testAddArray);
         forms.addTestForm();
+    }
+
+    private function subsellect_completeHandler(event:Event):void {
+        addChild(sellctTest);
+        sellctTest.init();
+        sellctTest.addEventListener(Event.COMPLETE, sellctTest_completeHandler);
+        transition(subsellect,sellctTest);
+    }
+
+    private function sellctTest_completeHandler(event:Event):void {
+        tests.init();
+        addChild(tests)
+        transition(sellctTest,tests);
+
+    }
+
+    private function forms_logInFailHandler(event:Event):void {
+        forms.notTrueUser();
     }
 }
 }

@@ -21,6 +21,7 @@ public class ServerRelation extends Sprite{
     public static  var outputArray : Array = new Array();
     public static  var userArray : Array = new Array();
     public static  var subjectArray : Array = new Array();
+    public static  var testPrefixArray : Array = new Array();
     public static var eventdisp : EventDispatcher = new EventDispatcher();
     public  function ServerRelation() {
 
@@ -33,7 +34,7 @@ public class ServerRelation extends Sprite{
         request.method = URLRequestMethod.POST;
         var variables : URLVariables = new URLVariables();
         variables.type= 0;
-        variables.prefix= 'rrrr';
+        variables.prefix= ServerRelation.testPrefixArray[ModalContainer.currentTest][1];
         request.data = variables;
         pointLoader.load(request);
         pointLoader.addEventListener(Event.COMPLETE, pointLoader_completeHandler);
@@ -121,11 +122,18 @@ public class ServerRelation extends Sprite{
 
             if (property.attributes()!=null)
             {
+                if (property.attribute('name')=='false')
+                {
+                    eventdisp.dispatchEvent(new Event(MyEvents.LOG_IN_FAIL));
+                    return
+                }
+
                 userArray.push(property.attribute('id'));
                 userArray.push(property.attribute('name'));
                 userArray.push(property.attribute('lastname'));
                 userArray.push(property.attribute('group'));
             }
+
         }
 
         eventdisp.dispatchEvent(new Event(MyEvents.LOG_IN));
@@ -224,6 +232,45 @@ public class ServerRelation extends Sprite{
     }
 
     private static function subjectLoader_securityErrorHandler(event:SecurityErrorEvent):void {
+
+    }
+    public static function getTestPrefix():void {
+        var url : String = AplicationStaticString.MAIN_URL+'/main.php/';
+        var testPrefixLoader: URLLoader  = new URLLoader();
+        var request : URLRequest = new URLRequest(url);
+        request.method = URLRequestMethod.POST;
+        var variables : URLVariables = new URLVariables();
+        variables.type= 4;
+        variables.name= ServerRelation.subjectArray[ModalContainer.currentSubject][1];
+        request.data = variables;
+        testPrefixLoader.load(request);
+        testPrefixLoader.addEventListener(Event.COMPLETE, testPrefixLoader_completeHandler);
+        testPrefixLoader.addEventListener(IOErrorEvent.IO_ERROR, testPrefixLoader_ioErrorHandler);
+        testPrefixLoader.addEventListener(SecurityErrorEvent.SECURITY_ERROR, testPrefixLoader_securityErrorHandler);
+
+    }
+
+    private static function testPrefixLoader_completeHandler(event:Event):void {
+        testPrefixArray = null;
+        testPrefixArray = new Array();
+        var xmltest : XML = new XML(event.currentTarget.data);
+
+        for each(var property:XML in xmltest.test)
+        {
+
+            if (property.attributes()!=null)
+            {
+                testPrefixArray.push(new Array(property.attribute('id'),property.attribute('name')));
+            }
+        }
+
+        eventdisp.dispatchEvent(new Event(Event.COMPLETE));    }
+
+    private static function testPrefixLoader_ioErrorHandler(event:IOErrorEvent):void {
+
+    }
+
+    private static function testPrefixLoader_securityErrorHandler(event:SecurityErrorEvent):void {
 
     }
 }

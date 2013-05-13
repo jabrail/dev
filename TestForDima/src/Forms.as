@@ -218,6 +218,14 @@ public class Forms extends Sprite{
     private function focusOutHandler(event:FocusEvent):void {
         timeLine.append(new TweenLite((event.target as TextField),0.4,{glowFilter:{color:0x3366ff, alpha:0, blurX:30, blurY:30}}));
     }
+    public function notTrueUser() : void
+    {
+                timeLine.append(new TweenLite(logInSprite,0.1,{x:logInSprite.x+30}));
+         timeLine.append(new TweenLite(logInSprite,0.1,{x:logInSprite.x-30}));
+         timeLine.append(new TweenLite(logInSprite,0.1,{x:logInSprite.x+30}));
+         timeLine.append(new TweenLite(logInSprite,0.1,{x:logInSprite.x-30}));
+         timeLine.append(new TweenLite(logInSprite,0.1,{x:0}));
+    }
 
     private function focusInHandler(event:FocusEvent):void {
 

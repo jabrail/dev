@@ -30,7 +30,11 @@ public class TestForDima extends Sprite {
     private var lastPoint: Point = new Point();
     private var currentSost : String = 'notScale';
     private var navigation : int=0;
+    private var completeTest : CompleteTestView;
     public function TestForDima() {
+
+    }
+    public function init() : void {
         TweenPlugin.activate([ScrollRectPlugin]);
         ServerRelation.getTest();
         ServerRelation.eventdisp.addEventListener(Event.COMPLETE, server_completeHandler);
@@ -117,11 +121,20 @@ public class TestForDima extends Sprite {
     }
 
     private function server_completeHandler(event:Event):void {
-        ServerRelation.eventdisp.addEventListener(Event.COMPLETE, server_completeHandler);
+        ServerRelation.eventdisp.removeEventListener(Event.COMPLETE, server_completeHandler);
         array=ServerRelation.outputArray;
         test  = new TestView(array);
         addChild(test);
+        test.addEventListener(Event.COMPLETE, test_completeHandler);
 
+    }
+
+    private function test_completeHandler(event:Event):void {
+       removeChild(test);
+        completeTest = new CompleteTestView(ModalContainer.responses,array);
+        completeTest.countRespons();
+        completeTest.outputResult();
+        addChild(completeTest);
     }
 }
 }

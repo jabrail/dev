@@ -14,6 +14,7 @@ public class TextFormats {
         public static var textFormat_1 : TextFormat = new TextFormat();
         public static var textFormat_2 : TextFormat = new TextFormat();
         public static var textFormat_3 : TextFormat = new TextFormat();
+        public static var textFormat_4 : TextFormat = new TextFormat();
         public function TextFormats() {
         }
         public static function init_Formats()  : void  {
@@ -25,6 +26,8 @@ public class TextFormats {
             textFormat_1.size = 20;
             textFormat_1.color = 0x000000;
             textFormat_1.align = TextFormatAlign.CENTER;
+            textFormat_4.size = 15;
+            textFormat_4.color = 0xFFFFFF;
 
         }
 }

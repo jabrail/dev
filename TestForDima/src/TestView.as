@@ -17,8 +17,12 @@ import flash.events.Event;
 
 public class TestView extends Sprite{
     private var timeline : TimelineLite = new TimelineLite();
+    private var completeIndex : int =0;
+    private var total:int=0;
     public function TestView(arraytest : Array) {
-       for (var i:int=0;i<arraytest.length;i++)
+        TweenPlugin.activate([BlurFilterPlugin]);
+        total = arraytest.length;
+        for (var i:int=0;i<arraytest.length;i++)
        {
            var test:TestElement = new TestElement(arraytest[i]);
            test.x=i*(test.width);
@@ -28,9 +32,12 @@ public class TestView extends Sprite{
     }
 
     private function test_completeHandler(event:Event):void {
-        TweenPlugin.activate([BlurFilterPlugin]);
+          completeIndex++;
+        if (completeIndex==total)
+        dispatchEvent(new Event(Event.COMPLETE));
         timeline.append(new TweenLite((event.target as TestElement), 1, {blurFilter:{blurX:5}}));
-        trace('id=',(event.target as TestElement).id,'   variant=',(event.target as TestElement).varian);
+        ModalContainer.responses.push(new Array(ModalContainer.currentTest,(event.target as TestElement).id,(event.target as TestElement).varian))
+        trace('current test',ModalContainer.currentTest,'id=',(event.target as TestElement).id,'   variant=',(event.target as TestElement).varian);
     }
 }
 }
