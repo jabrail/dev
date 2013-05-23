@@ -12,6 +12,7 @@ public class User {
     private var params : Array = new Array();
     public function User(params: Array) {
         this.params = params;
+        ModalContainer.currentUser = params[0];
 
     }
     public function init() : void {

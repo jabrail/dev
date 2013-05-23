@@ -4,13 +4,13 @@
     <list default="true" id="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" name="Default" comment="" />
     <ignored path="axadip.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1366440440600" ignored="false" />
+    <file path="/fragment.js2" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1369247151596" ignored="false" />
     <file path="/DBController.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1362261874549" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/IntelliJ_IDEA/idea-8D9F9E57-9C76B5C2.xml" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1362299109481" ignored="false" />
     <file path="/AddPoint.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1366000394739" ignored="false" />
     <file path="/GetPoint.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1366093801768" ignored="false" />
     <file path="/NavigationController.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1362355123987" ignored="false" />
-    <file path="/MainView.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1366621391744" ignored="false" />
+    <file path="/MainView.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1369026293590" ignored="false" />
     <file path="/FormInpOut.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1366093691175" ignored="false" />
     <file path="/Button.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1366612378297" ignored="false" />
     <file path="/MyEvents.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1366618070147" ignored="false" />
@@ -27,6 +27,9 @@
     <file path="/SettingView.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1366618079378" ignored="false" />
     <file path="/Thumbus.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1366609847748" ignored="false" />
     <file path="/MyGeoSpher.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1366440572763" ignored="false" />
+    <file path="E:/devel/axadip/src/MainView.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1369026295810" ignored="false" />
+    <file path="E:/devel/axadip/src/InfoView.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1369025917757" ignored="false" />
+    <file path="/InfoView.as" changelist="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" time="1369025892612" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -77,7 +81,6 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -90,7 +93,7 @@
       <file leaf-file-name="MainView.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainView.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="22" selection-start="5096" selection-end="5096" vertical-scroll-proportion="0.031021899">
+            <state line="500" column="28" selection-start="19406" selection-end="19406" vertical-scroll-proportion="0.031135531">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#165#207#0" expanded="true" />
@@ -102,7 +105,7 @@
       <file leaf-file-name="FormInpOut.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FormInpOut.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="356" column="31" selection-start="12390" selection-end="12390" vertical-scroll-proportion="0.0">
+            <state line="358" column="50" selection-start="12493" selection-end="12493" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,7 +123,7 @@
       <file leaf-file-name="GetPoint.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GetPoint.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="43" selection-start="4258" selection-end="4258" vertical-scroll-proportion="0.0">
+            <state line="93" column="2" selection-start="4204" selection-end="4204" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,7 +132,7 @@
       <file leaf-file-name="AddPoint.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AddPoint.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="40" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+            <state line="34" column="46" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -156,7 +159,7 @@
       <file leaf-file-name="SettingView.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SettingView.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="49" selection-start="6390" selection-end="6390" vertical-scroll-proportion="0.0">
+            <state line="194" column="47" selection-start="6388" selection-end="6388" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,7 +168,7 @@
       <file leaf-file-name="Thumbus.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thumbus.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="0" selection-start="4655" selection-end="4925" vertical-scroll-proportion="0.0">
+            <state line="135" column="48" selection-start="4925" selection-end="4925" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -234,6 +237,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -269,16 +273,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/devel/axadip" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -286,6 +291,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
@@ -541,6 +548,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b0919dde-3ea0-43a4-93d6-3a74d6dbc1f6" name="Default" comment="" />
@@ -556,8 +580,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1787044" sideWeight="0.6923077" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19393939" sideWeight="0.61025643" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3897436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -565,7 +590,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.60683763" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -574,7 +598,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30769232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30769232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -655,11 +679,16 @@
           <line>45</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/src/GetPoint.as</url>
+          <line>85</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="35" />
+      <option name="time" value="36" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -667,6 +696,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/SettingView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="49" selection-start="6390" selection-end="6390" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thumbus.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="0" selection-start="4655" selection-end="4925" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainView.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
@@ -701,11 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hhhh/Submarine/V1.0/src/MVCLevel/LoaderImg.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="38" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.4848485" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cache.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="89" selection-start="1189" selection-end="1243" vertical-scroll-proportion="0.0">
@@ -713,35 +751,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GetPoint.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="43" selection-start="4258" selection-end="4258" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyGeoSpher.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="36" selection-start="334" selection-end="334" vertical-scroll-proportion="0.18959108" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AddPoint.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="40" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FormInpOut.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="356" column="31" selection-start="12390" selection-end="12390" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../sdk/frameworks/libs/player/11.1/playerglobal.swc!/library.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1687" column="29" selection-start="75425" selection-end="75425" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Button.as">
@@ -758,23 +770,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thumbus.as">
+    <entry file="file://$PROJECT_DIR$/src/FormInpOut.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="0" selection-start="4655" selection-end="4925" vertical-scroll-proportion="0.0">
+        <state line="358" column="50" selection-start="12493" selection-end="12493" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddPoint.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="46" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SettingView.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="49" selection-start="6390" selection-end="6390" vertical-scroll-proportion="0.0">
+        <state line="194" column="47" selection-start="6388" selection-end="6388" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thumbus.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="48" selection-start="4925" selection-end="4925" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetPoint.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="2" selection-start="4204" selection-end="4204" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainView.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="22" selection-start="5096" selection-end="5096" vertical-scroll-proportion="0.031021899">
+        <state line="500" column="28" selection-start="19406" selection-end="19406" vertical-scroll-proportion="0.031135531">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#165#207#0" expanded="true" />
@@ -845,6 +878,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

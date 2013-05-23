@@ -42,7 +42,7 @@ public class TestElement extends Sprite{
         addChild(mainSprite);
         init();
     }
-    public function init() : void {
+    public function init() : void {    // добавление формы для прохождения тестов
 
         for (var i:int=0;i<5;i++)
         {
@@ -50,8 +50,9 @@ public class TestElement extends Sprite{
             arrayHovers[i] = new MySprite();
             (arrayTextField[i] as TextField).background = true;
             (arrayTextField[i] as TextField).backgroundColor = 0xCCCCCC;
-            (arrayTextField[i] as TextField).multiline=true;
             arrayTextField[i].defaultTextFormat = TextFormats.textFormat_1;
+            (arrayTextField[i] as TextField).multiline=true;
+            (arrayTextField[i] as TextField).wordWrap=true;
             arrayTextField[i].text = array[i+1];
             arrayTextField[i].height = 80;
             arrayTextField[i].width = 760;
@@ -67,7 +68,7 @@ public class TestElement extends Sprite{
         }
     }
 
-    private function clickHandler(event:MouseEvent):void {
+    private function clickHandler(event:MouseEvent):void {    // выбор теств
         for (var i:int =1;i<arrayHovers.length;i++)
             (arrayHovers[i] as Sprite).removeEventListener(MouseEvent.CLICK, clickHandler);
         TweenPlugin.activate([ColorMatrixFilterPlugin, EndArrayPlugin]);

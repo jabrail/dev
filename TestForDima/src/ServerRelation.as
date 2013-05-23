@@ -27,7 +27,7 @@ public class ServerRelation extends Sprite{
 
     }
 
-    public static  function getTest() : void {
+    public static  function getTest() : void {      // возвращает тест
         var url : String = AplicationStaticString.MAIN_URL+'/main.php/';
         var pointLoader: URLLoader  = new URLLoader();
         var request : URLRequest = new URLRequest(url);
@@ -41,7 +41,7 @@ public class ServerRelation extends Sprite{
         pointLoader.addEventListener(IOErrorEvent.IO_ERROR, pointLoader_ioErrorHandler);
         pointLoader.addEventListener(SecurityErrorEvent.SECURITY_ERROR, pointLoader_securityErrorHandler);
     }
-    public static function pointLoader_completeHandler(event:Event):void {
+    public static function pointLoader_completeHandler(event:Event):void {   // окончание загрузки
 
         outputArray = null;
         outputArray = new Array();
@@ -65,7 +65,7 @@ public class ServerRelation extends Sprite{
     public static  function pointLoader_securityErrorHandler(event:SecurityErrorEvent):void {
         trace(event.errorID);
     }
-    public static function addUser(params: Array) : void {
+    public static function addUser(params: Array) : void {        // добавление тестов
         var url : String = AplicationStaticString.MAIN_URL+'/add.php';
         var pointLoader: URLLoader  = new URLLoader();
         var request : URLRequest = new URLRequest(url);
@@ -83,7 +83,7 @@ public class ServerRelation extends Sprite{
         pointLoader.addEventListener(SecurityErrorEvent.SECURITY_ERROR, addUser_securityErrorHandler);
     }
 
-    public static function logIn(login:String = 'null',pass:String='null') : void {
+    public static function logIn(login:String = 'null',pass:String='null') : void {     // проверка подлинности введенного пароля и логина
         var url : String = AplicationStaticString.MAIN_URL+'/main.php';
         var pointLoader: URLLoader  = new URLLoader();
         var request : URLRequest = new URLRequest(url);
@@ -111,7 +111,7 @@ public class ServerRelation extends Sprite{
         trace(event.errorID);
     }
 
-    public static function logInComplete(event:Event):void {
+    public static function logInComplete(event:Event):void {     //
 
         userArray = null;
         userArray = new Array();
@@ -138,7 +138,7 @@ public class ServerRelation extends Sprite{
 
         eventdisp.dispatchEvent(new Event(MyEvents.LOG_IN));
     }
-    public static function addTest(params : Array) : void {
+    public static function addTest(params : Array) : void {     // функция добавления тестта
         var url : String = AplicationStaticString.MAIN_URL+'/addTest.php';
         var addTest: URLLoader  = new URLLoader();
         var request : URLRequest = new URLRequest(url);
@@ -158,8 +158,24 @@ public class ServerRelation extends Sprite{
         addTest.addEventListener(IOErrorEvent.IO_ERROR, addTest_ioErrorHandler);
         addTest.addEventListener(SecurityErrorEvent.SECURITY_ERROR, addTest_securityErrorHandler);
     }
+    public static function addResult(params : Array) : void {     // функция добавления результата
+        var url : String = AplicationStaticString.MAIN_URL+'/addResult.php';
+        var addResult: URLLoader  = new URLLoader();
+        var request : URLRequest = new URLRequest(url);
+        request.method = URLRequestMethod.POST;
+        var variables : URLVariables = new URLVariables();
+        variables.uid = params[0];
+        variables.tid= params[1];
+        variables.result= params[2];
+        request.data = variables;
+        addResult.load(request);
+        addResult.addEventListener(Event.COMPLETE, addResult_completeHandler);
+        addResult.addEventListener(IOErrorEvent.IO_ERROR, addResult_ioErrorHandler);
+        addResult.addEventListener(SecurityErrorEvent.SECURITY_ERROR, addResult_securityErrorHandler);
+    }
 
     private static function addTest_completeHandler(event:Event):void {
+        eventdisp.dispatchEvent(new Event(MyEvents.ADDTEST));
     }
 
     private static function addTest_ioErrorHandler(event:IOErrorEvent):void {
@@ -169,7 +185,7 @@ public class ServerRelation extends Sprite{
     private static function addTest_securityErrorHandler(event:SecurityErrorEvent):void {
 
     }
-    public static function addSubject(params : Array) : void {
+    public static function addSubject(params : Array) : void {    // функция добавления предмета
         var url : String = AplicationStaticString.MAIN_URL+'/addSubject.php';
         var Subject: URLLoader  = new URLLoader();
         var request : URLRequest = new URLRequest(url);
@@ -195,7 +211,7 @@ public class ServerRelation extends Sprite{
     private static function Subject_securityErrorHandler(event:SecurityErrorEvent):void {
 
     }
-    public static function getSubgect():void {
+    public static function getSubgect():void {        // возвращение теста
         var url : String = AplicationStaticString.MAIN_URL+'/main.php/';
         var subjectLoader: URLLoader  = new URLLoader();
         var request : URLRequest = new URLRequest(url);
@@ -234,7 +250,7 @@ public class ServerRelation extends Sprite{
     private static function subjectLoader_securityErrorHandler(event:SecurityErrorEvent):void {
 
     }
-    public static function getTestPrefix():void {
+    public static function getTestPrefix():void {    // возвращение названия теста
         var url : String = AplicationStaticString.MAIN_URL+'/main.php/';
         var testPrefixLoader: URLLoader  = new URLLoader();
         var request : URLRequest = new URLRequest(url);
@@ -271,6 +287,18 @@ public class ServerRelation extends Sprite{
     }
 
     private static function testPrefixLoader_securityErrorHandler(event:SecurityErrorEvent):void {
+
+    }
+
+    private static function addResult_completeHandler(event:Event):void {
+
+    }
+
+    private static function addResult_ioErrorHandler(event:IOErrorEvent):void {
+
+    }
+
+    private static function addResult_securityErrorHandler(event:SecurityErrorEvent):void {
 
     }
 }

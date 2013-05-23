@@ -9,6 +9,8 @@ package {
 public class Asset {
     [Embed(source = '/images/arrow.png')]
     public static  var Arrow:Class;
+    [Embed(source = '/images/back_button.png')]
+    public static  var ArrowBack:Class;
     public function Asset() {
     }
 }

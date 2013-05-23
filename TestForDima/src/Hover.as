@@ -10,6 +10,7 @@ import flash.display.Sprite;
 
 public class Hover extends Sprite {
     public var index : int = 0;
+    public var id : int = 0;
     public function Hover() {
     }
 }

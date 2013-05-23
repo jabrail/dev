@@ -20,6 +20,8 @@ public class TestView extends Sprite{
     private var completeIndex : int =0;
     private var total:int=0;
     public function TestView(arraytest : Array) {
+        ModalContainer.responses = null;
+        ModalContainer.responses = new Array();
         TweenPlugin.activate([BlurFilterPlugin]);
         total = arraytest.length;
         for (var i:int=0;i<arraytest.length;i++)
@@ -31,8 +33,9 @@ public class TestView extends Sprite{
        }
     }
 
-    private function test_completeHandler(event:Event):void {
+    private function test_completeHandler(event:Event):void {     // окончание загрузки
           completeIndex++;
+        dispatchEvent(new Event(MyEvents.CLICKTOTEST))
         if (completeIndex==total)
         dispatchEvent(new Event(Event.COMPLETE));
         timeline.append(new TweenLite((event.target as TestElement), 1, {blurFilter:{blurX:5}}));

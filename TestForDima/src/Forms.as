@@ -41,7 +41,7 @@ public class Forms extends Sprite{
     public function Forms() {
         TweenPlugin.activate([GlowFilterPlugin]);
     }
-    public function registration() : void
+    public function registration() : void      // окно регистрации
     {
 
         registrationContainer.removeChildren();
@@ -49,6 +49,8 @@ public class Forms extends Sprite{
         for (var i: int =0;i<5;i++)
       {
           arrayReg[i] = new TextField();
+          (arrayReg[i] as TextField).background = true;
+          (arrayReg[i] as TextField).backgroundColor = 0xDDDDDD;
           (arrayReg[i] as TextField).border = true;
           (arrayReg[i] as TextField).borderColor=0x000000;
           (arrayReg[i] as TextField).type = TextFieldType.INPUT;
@@ -57,6 +59,8 @@ public class Forms extends Sprite{
           (arrayReg[i] as TextField).height = 30;
           (arrayReg[i] as TextField).x = 300;
           (arrayReg[i] as TextField).y = 150+i*40;
+          (arrayReg[i] as TextField).addEventListener(FocusEvent.FOCUS_IN, focusInHandler);
+          (arrayReg[i] as TextField).addEventListener(FocusEvent.FOCUS_OUT, focusOutHandler);
 
           if (i==0)
           {
@@ -112,9 +116,23 @@ public class Forms extends Sprite{
         button.x=303;
         registrationContainer.addChild(button);
         addChild(registrationContainer);
+        var arrow : Bitmap = new Asset.ArrowBack();
+        var sp_arrow : Sprite = new Sprite();
+        arrow.height=80;
+        arrow.width =80;
+        arrow.x=-40;
+        arrow.y=-40;
+        sp_arrow.x=40;
+        sp_arrow.y=560;
+        sp_arrow.addChild(arrow);
+        registrationContainer.addChild(sp_arrow);
+        sp_arrow.addEventListener(MouseEvent.MOUSE_MOVE, arrow_mouseMoveHandler);
+        sp_arrow.addEventListener(MouseEvent.MOUSE_OUT, arrow_mouseOutHandler);
+        sp_arrow.addEventListener(MouseEvent.CLICK, arrow_clickHandler);
+
 
     }
-    private function createButton(text : String) : Sprite {
+    private function createButton(text : String) : Sprite {        // создание кнопки
         var button : Sprite  = new Sprite();
         var button_fon : Sprite  = new Sprite();
         var hover: Sprite = new Sprite();
@@ -135,7 +153,7 @@ public class Forms extends Sprite{
         button.addChild(hover);
          return button;
     }
-    private function createButtonReg(text : String) : Sprite {
+    private function createButtonReg(text : String) : Sprite {   // создание кнопки регистрации
         var button : Sprite  = new Sprite();
         var button_fon : Sprite  = new Sprite();
         var hover: Sprite = new Sprite();
@@ -156,7 +174,7 @@ public class Forms extends Sprite{
         button.addChild(hover);
         return button;
     }
-    public function singlIn() : void
+    public function singlIn() : void    // окно ввода при входе
     {
         TextFormats.init_Formats();
         logInSprite.removeChildren();
@@ -218,7 +236,7 @@ public class Forms extends Sprite{
     private function focusOutHandler(event:FocusEvent):void {
         timeLine.append(new TweenLite((event.target as TextField),0.4,{glowFilter:{color:0x3366ff, alpha:0, blurX:30, blurY:30}}));
     }
-    public function notTrueUser() : void
+    public function notTrueUser() : void   // ошибочный ввод данных при входе
     {
                 timeLine.append(new TweenLite(logInSprite,0.1,{x:logInSprite.x+30}));
          timeLine.append(new TweenLite(logInSprite,0.1,{x:logInSprite.x-30}));
@@ -247,7 +265,7 @@ public class Forms extends Sprite{
         dispatchEvent(new Event(MyEvents.REGISTRATION));
 
     }
-    public function addTestForm(): void {
+    public function addTestForm(): void {      // форма добавления тестов
         TextFormats.init_Formats();
          addTestContainer.removeChildren();
         for (var i: int =0;i<8;i++)
@@ -353,12 +371,24 @@ public class Forms extends Sprite{
 
     }
 
-    private function addTest_clickHandler(event:MouseEvent):void {
+    private function addTest_clickHandler(event:MouseEvent):void {    // событие нажатия кнопку добавить тест
           dispatchEvent(new Event(MyEvents.ADDTEST));
     }
 
-    private function registration_clickHandle(event:MouseEvent):void {
+    private function registration_clickHandle(event:MouseEvent):void {   // нажатие на кнопку регистрация
         dispatchEvent(new Event(MyEvents.REGISTRATIONCLICK))
+    }
+    private function arrow_mouseMoveHandler(event:MouseEvent):void {
+        new TimelineLite().append(new TweenLite(event.target, 0.3, {glowFilter:{color:0xffff00, alpha:1, blurX:30, blurY:30}}));
+    }
+
+    private function arrow_mouseOutHandler(event:MouseEvent):void {
+        new TimelineLite().append(new TweenLite(event.target, 0.3, {glowFilter:{color:0xffff00, alpha:0, blurX:30, blurY:30}}));
+    }
+
+    private function arrow_clickHandler(event:MouseEvent):void {     // нажатие на кнопку назад
+        new TimelineLite().append(new TweenLite(event.target, 0.5, {scaleX: 0.9,scaleY:0.9, ease:Bounce.easeOut}));
+        dispatchEvent(new Event(MyEvents.BACKREG));
     }
 }
 }

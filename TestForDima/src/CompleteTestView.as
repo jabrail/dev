@@ -38,6 +38,7 @@ public class CompleteTestView extends Sprite {
         text.defaultTextFormat = TextFormats.textFormat_3;
         text.width = 500;
         text.text='Вы набрали   '+((rightResponse/testArray.length)*100).toString()+'   процентов';
+        ServerRelation.addResult(new Array(ModalContainer.currentUser,ModalContainer.currentTestid,((rightResponse/testArray.length)*100)))
         addChild(text);
     }
 }

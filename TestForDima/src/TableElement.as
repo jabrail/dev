@@ -12,20 +12,22 @@ import flash.text.TextField;
 
 public class TableElement extends Sprite{
     public var index: int = 0;
+    public var id: int = 0;
     public function TableElement() {
 
     }
-    public function init(str:String) : void {
+    public function init(str:String) : void {     // создание списка
         var background : Sprite = new Sprite();
-        background.graphics.beginFill(0x000000,0.4);
-        background.graphics.drawRect(0,0,780,40);
+        background.graphics.beginFill(0xffff00,0.4);
+        background.graphics.drawRect(0,0,100,100);
         background.x=5;
         background.y=5;
 
         var tf: TextField = new TextField();
         tf.defaultTextFormat = TextFormats.textFormat_4;
-        tf.width=300;
-        tf.height= 40;
+        tf.multiline = true;
+        tf.width=100;
+        tf.height= 100;
         tf.text = str;
         tf.x=10;
         tf.y=10;
@@ -38,13 +40,14 @@ public class TableElement extends Sprite{
 
         var hover:Hover = new Hover()
         hover.index = index;
+        hover.id = id;
         hover.graphics.beginFill(0x000000,0.01);
-        hover.graphics.drawRect(0,0,790,50);
+        hover.graphics.drawRect(0,0,100,100);
 
         var mainContainer : Sprite = new Sprite();
         addChild(background);
         addChild(tf);
-        addChild(arrow);
+       // addChild(arrow);
         addChild(hover);
     }
 }
